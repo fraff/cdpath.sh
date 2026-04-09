@@ -39,7 +39,7 @@ function _debug ()
 }
 
 unset run setX setE verbose force
-verbose=:
+debug=:
 
 while getopts :$OPTS arg
 do
